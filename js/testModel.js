@@ -12,7 +12,8 @@ define(['knockout', 'js/tk_i18n'],  function (ko, i18n) {
 
     self.executeClick = function() {
       var msg = i18n.locale().amount + " " + i18n.locale().car + ": " + self.amountCar() + "\n" +
-                i18n.locale().amount + " " + i18n.locale().beer + ": " + self.amountBeer();
+                i18n.locale().amount + " " + i18n.locale().beer + ": " + self.amountBeer() + "\n" +
+                i18n.locale().msgTotalAmount.format(self.amountCar() + self.amountBeer());
       alert(msg);
     }
 

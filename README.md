@@ -39,3 +39,14 @@ Dependencies
 - jQuery
 - Knockout
 - RequireJS
+
+
+New Features Log
+----------------
+
+- Added support for C# like string.format(), so you can now create translations with templates
+```javascript
+
+  // See in example in testModel.js
+  i18n.locale().msgTotalAmount.format(self.amountCar() + self.amountBeer());
+```

@@ -8,7 +8,8 @@
     'car' => 'Car',
     'beer' => "Beer",
     'amount' => "Amount",
-    'msgSwitchLanguageInfo' => 'Click on the flags to switch the language'
+    'msgSwitchLanguageInfo' => 'Click on the flags to switch the language',
+    'msgTotalAmount' => 'You have a total amount of {0} items'
   );
 
   $localeDE = array(
@@ -17,7 +18,8 @@
     'car' => 'Auto',
     'beer' => "Bier",
     'amount' => "Menge",
-    'msgSwitchLanguageInfo' => 'Klicke auf die Flaggen um die Sprache zu wechseln'
+    'msgSwitchLanguageInfo' => 'Klicke auf die Flaggen um die Sprache zu wechseln',
+    'msgTotalAmount' => 'Die Gesamtmenge beträgt {0} Gegenstände'
   );
 
   $selectedLocale = null;
